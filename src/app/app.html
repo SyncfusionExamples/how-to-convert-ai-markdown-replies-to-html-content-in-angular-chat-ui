@@ -1,0 +1,8 @@
+<div class="container">
+  <div id="chatui" ejs-chatui #chatUI [user]="currentUserModel" (messageSend)="onMessageSend($event)"
+    headerText="Syncfusion HelpBot" headerIconCss="e-icons e-people">
+    <e-messages>
+      <e-message text="Welcome to Syncfusion AI HelpBot! How can I help you?" [author]="syncfusionUserModel"></e-message>
+    </e-messages>
+  </div>
+</div>
